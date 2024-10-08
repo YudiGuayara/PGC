@@ -1,15 +1,15 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.AlertEntity;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.AlertNotFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IAlertEntityMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IAlertRepository;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Alert;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IAlertPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.AlertEntity;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.AlertNotFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IAlertEntityMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IAlertRepository;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Alert;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IAlertPersistencePort;
 import io.vavr.control.Either;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

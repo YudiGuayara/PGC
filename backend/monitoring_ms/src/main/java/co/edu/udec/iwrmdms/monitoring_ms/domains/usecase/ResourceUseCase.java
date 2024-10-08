@@ -1,13 +1,13 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.usecase;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.usecase;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IResourceRequestMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IResourceResponseMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.IResourceServicePort;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Resource;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IResourcePersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IResourceRequestMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IResourceResponseMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.IResourceServicePort;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Resource;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IResourcePersistencePort;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

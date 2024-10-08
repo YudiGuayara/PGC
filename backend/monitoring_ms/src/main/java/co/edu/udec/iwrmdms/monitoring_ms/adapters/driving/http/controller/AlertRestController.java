@@ -1,11 +1,11 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.controller;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.controller;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.AlertCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.AlertUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IAlertHandler;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.AlertCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.AlertUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IAlertHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -24,7 +24,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 @RestController
 @RequestMapping("/api")

@@ -1,9 +1,9 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.spi;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.spi;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Resource;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Resource;
 import io.vavr.control.Either;
 import org.springframework.data.domain.Page;
 

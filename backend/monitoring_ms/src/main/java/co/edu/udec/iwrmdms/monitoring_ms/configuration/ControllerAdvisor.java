@@ -1,6 +1,6 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration;
 
-import co.edu.usa.iwrmdms.monitoring_ms.domains.exceptions.BadScheduleDeleteIntentException;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.exceptions.BadScheduleDeleteIntentException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import java.util.Collections;
 import java.util.Map;
 
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 @ControllerAdvice
 public class ControllerAdvisor {

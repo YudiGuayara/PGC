@@ -1,6 +1,6 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity;
 
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.enums.Level;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.enums.Level;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

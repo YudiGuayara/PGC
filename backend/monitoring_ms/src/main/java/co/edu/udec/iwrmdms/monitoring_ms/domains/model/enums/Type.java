@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.model.enums;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.model.enums;
 
 public enum Type {
     RIVER,

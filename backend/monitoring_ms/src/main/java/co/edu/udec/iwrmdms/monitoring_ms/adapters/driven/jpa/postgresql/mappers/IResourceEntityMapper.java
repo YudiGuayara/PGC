@@ -1,10 +1,10 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.ResourceEntity;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Resource;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.ResourceEntity;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Resource;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

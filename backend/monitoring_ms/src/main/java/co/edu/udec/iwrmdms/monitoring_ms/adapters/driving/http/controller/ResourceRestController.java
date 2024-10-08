@@ -1,11 +1,11 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.controller;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.controller;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IResourceHandler;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IResourceHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -16,7 +16,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 import java.util.Collections;
 import java.util.List;

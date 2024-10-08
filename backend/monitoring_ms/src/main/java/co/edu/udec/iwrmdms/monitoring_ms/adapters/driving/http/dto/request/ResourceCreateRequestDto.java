@@ -1,6 +1,6 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request;
 
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.enums.Type;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.enums.Type;
 
 public record ResourceCreateRequestDto(
         String name,

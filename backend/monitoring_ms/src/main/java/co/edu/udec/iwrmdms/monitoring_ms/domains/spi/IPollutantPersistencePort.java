@@ -1,10 +1,10 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.spi;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.spi;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IPollutantEntityMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Pollutant;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IPollutantEntityMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Pollutant;
 import io.vavr.control.Either;
 import org.springframework.data.domain.Page;
 

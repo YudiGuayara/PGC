@@ -1,12 +1,12 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.usecase;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.usecase;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IAlertResponseMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.IAlertServicePort;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Alert;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IAlertPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.AlertResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IAlertResponseMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.IAlertServicePort;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Alert;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IAlertPersistencePort;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

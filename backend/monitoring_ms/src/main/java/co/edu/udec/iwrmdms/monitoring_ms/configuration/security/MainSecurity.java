@@ -1,6 +1,6 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration.security;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration.security;
 
-/*import co.edu.usa.iwrmdms.monitoring_ms.configuration.security.jwt.JwtEntryPoint;
+/*import co.edu.udec.iwrmdms.monitoring_ms.configuration.security.jwt.JwtEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

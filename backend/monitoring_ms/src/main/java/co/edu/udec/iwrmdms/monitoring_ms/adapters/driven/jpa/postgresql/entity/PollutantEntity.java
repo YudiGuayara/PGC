@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

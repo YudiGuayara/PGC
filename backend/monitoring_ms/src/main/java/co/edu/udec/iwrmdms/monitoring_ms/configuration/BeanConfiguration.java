@@ -1,12 +1,12 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter.*;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.*;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.*;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.*;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.*;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.*;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.usecase.*;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter.*;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.*;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.*;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.*;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.*;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.*;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.usecase.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

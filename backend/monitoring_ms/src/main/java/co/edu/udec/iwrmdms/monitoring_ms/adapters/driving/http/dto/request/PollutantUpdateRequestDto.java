@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request;
 
 public record PollutantUpdateRequestDto(
         Integer pollutantId,

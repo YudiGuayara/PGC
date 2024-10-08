@@ -1,12 +1,12 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.controller;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.controller;
 
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.EventCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.EventUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IEventHandler;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.EventCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.EventUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IEventHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -25,7 +25,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 
 @RestController

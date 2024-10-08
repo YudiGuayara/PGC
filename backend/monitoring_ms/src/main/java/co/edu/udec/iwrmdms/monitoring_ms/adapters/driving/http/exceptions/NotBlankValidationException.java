@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.exceptions;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.exceptions;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

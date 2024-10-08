@@ -1,11 +1,11 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.api;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.api;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Resource;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.ResourceUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Resource;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

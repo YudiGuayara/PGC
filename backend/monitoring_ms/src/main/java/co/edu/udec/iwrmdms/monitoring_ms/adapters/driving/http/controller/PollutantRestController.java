@@ -1,11 +1,11 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.controller;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.controller;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IPollutantHandler;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IPollutantHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -24,7 +24,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 
 @RestController

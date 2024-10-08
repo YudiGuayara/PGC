@@ -1,15 +1,15 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.MeasurementEntity;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.MeasurementNotFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IMeasurementEntityMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IMeasurementRepository;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Measurement;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IMeasurementPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.MeasurementEntity;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.MeasurementNotFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IMeasurementEntityMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IMeasurementRepository;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Measurement;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IMeasurementPersistencePort;
 import io.vavr.control.Either;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

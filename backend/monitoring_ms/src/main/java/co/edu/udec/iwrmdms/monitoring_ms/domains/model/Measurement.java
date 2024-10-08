@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.model;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.model;
 
 import java.time.LocalDate;
 

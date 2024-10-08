@@ -1,12 +1,12 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.usecase;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.usecase;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IPollutantResponseMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.IPollutantServicePort;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Pollutant;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IPollutantPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IPollutantResponseMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.IPollutantServicePort;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Pollutant;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IPollutantPersistencePort;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

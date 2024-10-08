@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration.security.jwt;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration.security.jwt;
 
 /*import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

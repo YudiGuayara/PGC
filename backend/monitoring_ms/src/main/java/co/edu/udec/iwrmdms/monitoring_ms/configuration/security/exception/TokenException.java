@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration.security.exception;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration.security.exception;
 
 /*
 import org.springframework.security.core.AuthenticationException;

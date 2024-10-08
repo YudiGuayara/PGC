@@ -1,8 +1,8 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Pollutant;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.PollutantUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Pollutant;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

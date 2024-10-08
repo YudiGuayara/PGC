@@ -1,6 +1,6 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request;
 
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.enums.Magnitude;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.enums.Magnitude;
 
 import java.time.LocalDate;
 

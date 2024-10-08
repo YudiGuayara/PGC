@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
@@ -10,7 +10,7 @@ import io.swagger.v3.oas.models.media.Schema;
 import io.swagger.v3.oas.models.media.StringSchema;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 import java.util.Map;
 

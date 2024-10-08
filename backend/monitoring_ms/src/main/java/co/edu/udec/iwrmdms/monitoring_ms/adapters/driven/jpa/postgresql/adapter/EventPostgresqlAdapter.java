@@ -1,15 +1,15 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.EventEntity;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.EvemtNotFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IEventEntityMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IEventRepository;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Event;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IEventPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.EventEntity;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.EvemtNotFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IEventEntityMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IEventRepository;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Event;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IEventPersistencePort;
 import io.vavr.control.Either;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

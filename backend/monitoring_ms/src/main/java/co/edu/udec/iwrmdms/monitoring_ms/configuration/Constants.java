@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration;
 
 public class Constants {
 

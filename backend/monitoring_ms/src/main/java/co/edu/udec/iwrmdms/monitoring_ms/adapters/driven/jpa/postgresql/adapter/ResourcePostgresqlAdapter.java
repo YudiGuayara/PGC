@@ -1,15 +1,15 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.adapter;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.ResourceEntity;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.ResourceNotFoundException;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IResourceEntityMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IResourceRepository;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Resource;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IResourcePersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.entity.ResourceEntity;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.NoDataFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.exceptions.ResourceNotFoundException;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.mappers.IResourceEntityMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driven.jpa.postgresql.repositories.IResourceRepository;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourcePaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.ResourceResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Resource;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IResourcePersistencePort;
 import io.vavr.control.Either;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

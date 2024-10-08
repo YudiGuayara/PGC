@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration;
 
 /*import feign.RequestInterceptor;
 import org.springframework.beans.factory.annotation.Value;

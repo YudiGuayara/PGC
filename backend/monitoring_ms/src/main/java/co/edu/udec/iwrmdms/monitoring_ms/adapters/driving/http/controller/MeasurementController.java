@@ -1,11 +1,11 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.controller;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.controller;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.MeasurementCreateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.MeasurementUpdateRequestDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IMeasurementHandler;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.MeasurementCreateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.request.MeasurementUpdateRequestDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.handlers.IMeasurementHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -24,7 +24,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static co.edu.usa.iwrmdms.monitoring_ms.configuration.Constants.*;
+import static co.edu.udec.iwrmdms.monitoring_ms.configuration.Constants.*;
 
 
 @RestController

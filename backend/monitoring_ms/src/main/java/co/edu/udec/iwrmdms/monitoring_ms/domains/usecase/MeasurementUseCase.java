@@ -1,12 +1,12 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.usecase;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.usecase;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IMeasurementResponseMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.IMeasurementServicePort;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Measurement;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IMeasurementPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.MeasurementResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IMeasurementResponseMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.IMeasurementServicePort;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Measurement;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IMeasurementPersistencePort;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

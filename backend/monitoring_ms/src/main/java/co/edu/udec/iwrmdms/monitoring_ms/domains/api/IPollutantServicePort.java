@@ -1,9 +1,9 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.api;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.api;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Pollutant;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.PollutantResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Pollutant;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

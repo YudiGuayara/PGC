@@ -1,7 +1,7 @@
-package co.edu.usa.iwrmdms.monitoring_ms.configuration.security;
+package co.edu.udec.iwrmdms.monitoring_ms.configuration.security;
 
-/*import co.edu.usa.iwrmdms.monitoring_ms.configuration.security.jwt.JwtAuthenticationToken;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.IAuthenticationUserInfoServicePort;
+/*import co.edu.udec.iwrmdms.monitoring_ms.configuration.security.jwt.JwtAuthenticationToken;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.IAuthenticationUserInfoServicePort;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import jakarta.servlet.FilterChain;

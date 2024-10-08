@@ -1,12 +1,12 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.usecase;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.usecase;
 
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventListResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventPaginationResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventResponseDto;
-import co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IEventResponseMapper;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.api.IEventServicePort;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.Event;
-import co.edu.usa.iwrmdms.monitoring_ms.domains.spi.IEventPersistencePort;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventListResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventPaginationResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response.EventResponseDto;
+import co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.mapper.IEventResponseMapper;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.api.IEventServicePort;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.Event;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.spi.IEventPersistencePort;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

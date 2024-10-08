@@ -1,4 +1,4 @@
-package co.edu.usa.iwrmdms.monitoring_ms.adapters.driving.http.dto.response;
+package co.edu.udec.iwrmdms.monitoring_ms.adapters.driving.http.dto.response;
 
 import java.time.LocalDate;
 

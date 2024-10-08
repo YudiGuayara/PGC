@@ -1,6 +1,6 @@
-package co.edu.usa.iwrmdms.monitoring_ms.domains.model;
+package co.edu.udec.iwrmdms.monitoring_ms.domains.model;
 
-import co.edu.usa.iwrmdms.monitoring_ms.domains.model.enums.Type;
+import co.edu.udec.iwrmdms.monitoring_ms.domains.model.enums.Type;
 
 public class Resource {
     private Integer resourceId;
