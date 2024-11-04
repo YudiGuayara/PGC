@@ -5,6 +5,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.Optional;
 
@@ -15,3 +16,15 @@ public interface IUserRepository extends JpaRepository<UserEntity, Long> {
     List<UserEntity> findAllByRoleEntityId(Long idRole, Pageable pageable);
     Optional<UserEntity> findByProfileEntityId(Long profileId);
 }
+=======
+import java.util.List; 
+import java.util.Optional; 
+
+public interface IUserRepository extends JpaRepository<UserEntity, Long> {
+    Optional<UserEntity> findByProfile_ProfileId(Long profileId);
+    List<UserEntity> findAllByRole_RoleId(Long roleId, Pageable pageable); 
+    Optional<UserEntity> findByProfile_ProfileIdAndRole_RoleId(Long profileId, Long roleId);
+    void deleteByProfile_ProfileIdAndRole_RoleId(Long profileId, Long roleId);
+}
+
+>>>>>>> 1c3f0d3 (Resuelto conflicto)

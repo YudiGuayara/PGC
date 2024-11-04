@@ -8,7 +8,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+<<<<<<< HEAD
 @Table(name="roles")
+=======
+@Table(name = "roles")
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 @Data
 public class RoleEntity {
     @Id

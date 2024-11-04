@@ -25,6 +25,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     IProfileRepository profileRepository;
 
 
+<<<<<<< HEAD
     @Override
     public UserDetails loadUserByUsername(String dniNumber) throws UsernameNotFoundException {
         ProfileEntity profile = profileRepository.findByDniNumber(dniNumber).orElseThrow(() -> new UsernameNotFoundException("User not found"));
@@ -34,4 +35,19 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         roles.add(user.get().getRole());
         return PrincipalUser.build(user.get(), roles);
     }
+=======
+@Override
+public UserDetails loadUserByUsername(String dniNumber) throws UsernameNotFoundException {
+    ProfileEntity profile = profileRepository.findByDniNumber(dniNumber)
+            .orElseThrow(() -> new UsernameNotFoundException("User not found"));
+    
+    Optional<UserEntity> user = userRepository.findByProfile_ProfileId(profile.getProfileId());
+    if (!user.isPresent()) throw new UsernameNotFoundException("User not found with document: " + dniNumber);
+    
+    List<RoleEntity> roles = new ArrayList<>();
+    roles.add(user.get().getRole());
+    return PrincipalUser.build(user.get(), roles);
+}
+
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 }

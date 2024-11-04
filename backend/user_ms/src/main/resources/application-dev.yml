@@ -1,11 +1,17 @@
 server:
-  port: 8090
-
+  port: 8080
+  
 spring:
   datasource:
+<<<<<<< HEAD
     url: jdbc:postgresql://localhost:5432/users   
     username: postgres
     password: 123456789   
+=======
+    url: jdbc:postgresql://localhost:5432/usuarios
+    username: postgres
+    password: 123456789
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -13,11 +19,14 @@ spring:
     show-sql: true
  
 
+<<<<<<< HEAD
 
 jwt:
   secret: ${KEYSECRET_SECURITY:defaultSecret}
   expiration: ${EXPIRE_DAYS_SECURITY:3600000}
 
+=======
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 management:
   endpoints:
     web:

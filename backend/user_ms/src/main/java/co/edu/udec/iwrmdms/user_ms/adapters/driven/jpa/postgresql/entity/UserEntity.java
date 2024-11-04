@@ -9,13 +9,20 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
+<<<<<<< HEAD
 @Entity
 @Table(name="users")
 @Data
+=======
+@Data
+@Entity
+@Table(name = "users")
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
+<<<<<<< HEAD
     private String username;
     private String password;
     @ManyToOne
@@ -25,4 +32,61 @@ public class UserEntity {
     @JoinColumn(name = "id_role")
     private RoleEntity role;
 
+=======
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "profile_id", referencedColumnName = "profileId")
+    private ProfileEntity profile;
+
+    @ManyToOne
+    @JoinColumn(name = "role_id", referencedColumnName = "roleId")
+    private RoleEntity role;
+
+    private String username;
+    private String password;
+
+
+
+
+    // Getters y setters
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public ProfileEntity getProfile() {
+        return profile;
+    }
+
+    public void setProfile(ProfileEntity profile) {
+        this.profile = profile;
+    }
+
+    public RoleEntity getRole() {
+        return role;
+    }
+
+    public void setRole(RoleEntity role) {
+        this.role = role;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 }

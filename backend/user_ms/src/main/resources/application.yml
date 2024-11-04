@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 
  spring:
   main:
     allow-bean-definition-overriding: true
  
+=======
+spring:
+  profiles:
+    active: dev
+>>>>>>> 1c3f0d3 (Resuelto conflicto)

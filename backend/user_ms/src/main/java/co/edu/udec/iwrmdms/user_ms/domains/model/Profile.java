@@ -1,19 +1,42 @@
 package co.edu.udec.iwrmdms.user_ms.domains.model;
+<<<<<<< HEAD
 
 import co.edu.udec.iwrmdms.user_ms.domains.model.enums.AcademicDegree;
 import co.edu.udec.iwrmdms.user_ms.domains.model.enums.DniType;
+=======
+
+import co.edu.udec.iwrmdms.user_ms.domains.model.enums.AcademicDegree;
+import co.edu.udec.iwrmdms.user_ms.domains.model.enums.DniType;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 
 public class Profile {
-
     private Long profileId;
+
+    @NotNull
     private DniType dniType;
+
+    @NotEmpty
     private String dniNumber;
+
+    @NotEmpty
     private String firstName;
+
+    @NotEmpty
     private String lastName;
+
     private String genre;
+
+    @NotNull
+    @Email
     private String email;
+
     private String phone;
     private String address;
+
     private AcademicDegree academicDegree;
     private String occupation;
 

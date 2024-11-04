@@ -10,5 +10,10 @@ import java.util.Optional;
 public interface IProfileRepository extends JpaRepository<ProfileEntity, Long> {
     Optional<ProfileEntity> findByDniNumber(String dniNumber);
     Boolean existsByDniNumber(String dniNumber);
+<<<<<<< HEAD
     boolean existsByEMail(String email); // Nota: Puede haber un error tipográfico en "email".
+=======
+    boolean existsByEmail(String email); // Nota: Corregido a "existsByEmail" para consistencia.
+    
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
 }

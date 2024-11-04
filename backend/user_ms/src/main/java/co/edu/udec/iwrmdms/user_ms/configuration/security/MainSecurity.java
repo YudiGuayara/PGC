@@ -33,7 +33,11 @@ public class MainSecurity {
  
 
     @Bean
+<<<<<<< HEAD
     public PasswordEncoder passwordEncoder() {
+=======
+    public PasswordEncoder customPasswordEncoder() {
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
         return new BCryptPasswordEncoder();
     }
 

@@ -26,12 +26,26 @@ public class PrincipalUser implements UserDetails {
         this.authorities = authorities;
     }
 
+<<<<<<< HEAD
     public static PrincipalUser build(UserEntity user, List<RoleEntity> roles){
         List<GrantedAuthority> authorities = roles.stream()
                 .map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList());
         return new PrincipalUser(user.getUserId(),
                 user.getProfile().getFirstName().concat(" ").concat(user.getProfile().getLastName()),
                 user.getProfile().getEmail(), user.getUsername(), user.getPassword(), authorities);
+=======
+    public static PrincipalUser build(UserEntity user, List<RoleEntity> roles) {
+        List<GrantedAuthority> authorities = roles.stream()
+                .map(role -> new SimpleGrantedAuthority(role.getName()))
+                .collect(Collectors.toList());
+        return new PrincipalUser(
+                user.getUserId(),
+                user.getProfile().getFirstName().concat(" ").concat(user.getProfile().getLastName()),
+                user.getProfile().getEmail(),
+                user.getUsername(),
+                user.getPassword(),
+                authorities);
+>>>>>>> 1c3f0d3 (Resuelto conflicto)
     }
 
     @Override
